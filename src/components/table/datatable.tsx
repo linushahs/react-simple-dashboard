@@ -47,7 +47,7 @@ const defaultColumn: Partial<ColumnDef<ProductResponse>> = {
         value={value as string}
         onChange={(e) => setValue(e.target.value)}
         onBlur={onBlur}
-        className="bg-transparent w-full outline-none focus:outline-gray-700 rounded-sm px-1.5"
+        className="bg-transparent w-fit outline-none focus:outline-gray-700 rounded-sm px-1.5"
       />
     );
   },
@@ -139,8 +139,8 @@ function DataTable({ data }: DataTableProps) {
         <div>No products found</div>
       ) : (
         <Fragment>
-          <div className="max-w-full overflow-x-auto">
-            <table className="w-full rounded-lg overflow-hidden">
+          <div className="w-full overflow-x-auto">
+            <table className="w-[1000px] lg:w-full  rounded-lg overflow-hidden">
               <thead className="bg-secondaryBg ">
                 {table.getHeaderGroups().map((headerGroup) => (
                   <tr key={headerGroup.id}>
