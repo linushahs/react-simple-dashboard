@@ -1,5 +1,5 @@
 ## React Simple Dashboard
-A sleek, customizable dashboard built with React, TypeScript, and Vite.
+A simple, beautiful dashboard built with React, TypeScript, and Vite.
 
 (Features of App: Table Edit Mode, Column Visibility features)
 
