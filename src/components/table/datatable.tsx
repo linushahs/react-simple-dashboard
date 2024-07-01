@@ -219,7 +219,7 @@ function DataTable({ data }: DataTableProps) {
           {/* Pagination goes here ====================================== */}
           <div className="flex items-center justify-between py-4">
             <div className="flex space-x-4">
-              <span className="flex items-center gap-1">
+              <span className="flex items-center gap-1" data-testid="pageinfo">
                 <div>Page</div>
                 <strong>
                   {table.getState().pagination.pageIndex + 1} of{" "}

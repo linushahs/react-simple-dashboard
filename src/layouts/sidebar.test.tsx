@@ -11,7 +11,6 @@ vi.mock("assets", () => ({
 
 // Mock the Button component
 vi.mock("components/button", () => ({
-  __esModule: true,
   default: (props: ButtonProps) => <button {...props}>{props.children}</button>,
 }));
 

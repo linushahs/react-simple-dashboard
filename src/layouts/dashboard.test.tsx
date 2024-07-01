@@ -5,7 +5,6 @@ import Dashboard from "./Dashboard";
 
 // Mock the DataTable component
 vi.mock("components/table/datatable", () => ({
-  __esModule: true,
   default: (props: any) => (
     <div data-testid="DataTable">{JSON.stringify(props.data)}</div>
   ),
