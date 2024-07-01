@@ -1,7 +1,7 @@
 ## React Simple Dashboard
 A sleek, customizable dashboard built with React, TypeScript, and Vite.
 
-![alt text]()
+![alt text](https://github.com/linushahs/react-simple-dashboard/tree/main/public/dashboard.png)
 
 ### Features
 - ⚡️ Lightning fast with Vite
